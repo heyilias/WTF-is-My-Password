@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace WTF_is_My_Password
 {
-    public partial class Form1 : Form
+    public partial class FindPass : Form
     {
-        public Form1()
+        public FindPass()
         {
             InitializeComponent();
-        }
-
-        private void findPassToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            
         }
     }
 }
