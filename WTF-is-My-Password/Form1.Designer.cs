@@ -60,13 +60,14 @@ namespace WTF_is_My_Password
             // addNewPassToolStripMenuItem
             // 
             this.addNewPassToolStripMenuItem.Name = "addNewPassToolStripMenuItem";
-            this.addNewPassToolStripMenuItem.Size = new System.Drawing.Size(141, 32);
+            this.addNewPassToolStripMenuItem.Size = new System.Drawing.Size(141, 29);
             this.addNewPassToolStripMenuItem.Text = "Add New Pass";
+            this.addNewPassToolStripMenuItem.Click += new System.EventHandler(this.addNewPassToolStripMenuItem_Click);
             // 
             // modifyOrDeletePassToolStripMenuItem
             // 
             this.modifyOrDeletePassToolStripMenuItem.Name = "modifyOrDeletePassToolStripMenuItem";
-            this.modifyOrDeletePassToolStripMenuItem.Size = new System.Drawing.Size(201, 32);
+            this.modifyOrDeletePassToolStripMenuItem.Size = new System.Drawing.Size(201, 29);
             this.modifyOrDeletePassToolStripMenuItem.Text = "Modify or Delete Pass";
             // 
             // Form1

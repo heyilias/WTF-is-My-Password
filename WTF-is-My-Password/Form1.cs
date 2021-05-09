@@ -19,7 +19,20 @@ namespace WTF_is_My_Password
 
         private void findPassToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            Form frm = new FindPass();
+            frm.MdiParent = this;
+            if (this.ActiveMdiChild != null)
+                ActiveMdiChild.Close();
+            frm.Show();
+        }
+
+        private void addNewPassToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frm = new AddPass();
+            frm.MdiParent = this;
+            if (this.ActiveMdiChild != null)
+                ActiveMdiChild.Close();
+            frm.Show();
         }
     }
 }
