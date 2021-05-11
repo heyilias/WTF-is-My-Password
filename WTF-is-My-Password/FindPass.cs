@@ -16,5 +16,10 @@ namespace WTF_is_My_Password
         {
             InitializeComponent();
         }
+
+        private void FindPass_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -86,6 +86,7 @@ namespace WTF_is_My_Password
             this.Controls.Add(this.label1);
             this.Name = "FindPass";
             this.Text = "FindPass";
+            this.Load += new System.EventHandler(this.FindPass_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgListOfPass)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
