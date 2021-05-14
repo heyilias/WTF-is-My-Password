@@ -50,7 +50,7 @@ namespace WTF_is_My_Password
             // 
             this.textBox1.Location = new System.Drawing.Point(377, 28);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(341, 26);
+            this.textBox1.Size = new System.Drawing.Size(354, 26);
             this.textBox1.TabIndex = 1;
             // 
             // dgListOfPass
