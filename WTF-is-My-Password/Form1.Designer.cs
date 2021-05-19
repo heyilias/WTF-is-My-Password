@@ -69,6 +69,7 @@ namespace WTF_is_My_Password
             this.modifyOrDeletePassToolStripMenuItem.Name = "modifyOrDeletePassToolStripMenuItem";
             this.modifyOrDeletePassToolStripMenuItem.Size = new System.Drawing.Size(201, 29);
             this.modifyOrDeletePassToolStripMenuItem.Text = "Modify or Delete Pass";
+            this.modifyOrDeletePassToolStripMenuItem.Click += new System.EventHandler(this.modifyOrDeletePassToolStripMenuItem_Click);
             // 
             // Form1
             // 

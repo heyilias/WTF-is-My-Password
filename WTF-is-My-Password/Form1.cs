@@ -34,5 +34,14 @@ namespace WTF_is_My_Password
                 ActiveMdiChild.Close();
             frm.Show();
         }
+
+        private void modifyOrDeletePassToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frm = new DeleteModify();
+            frm.MdiParent = this;
+            if (this.ActiveMdiChild != null)
+                ActiveMdiChild.Close();
+            frm.Show();
+        }
     }
 }
